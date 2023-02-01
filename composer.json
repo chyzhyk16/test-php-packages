@@ -1,0 +1,19 @@
+{
+  "name": "chyzhyk16/test-php-packages",
+  "description": "testing php packages",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Vlad Chyzhevych",
+      "email": "chyzhka16@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chyzhyk16\\TestPhpPackages\\": "src"
+    }
+  }
+}
